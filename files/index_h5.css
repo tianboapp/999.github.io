@@ -1,0 +1,191 @@
+html,body {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  overscroll-behavior: none;
+  /* background-color: rgba(0,0,0,1); */
+}
+body{  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  -ms-tap-highlight-color: rgba(0,0,0,0);
+  tap-highlight-color: rgba(0,0,0,0);
+}
+body,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: absolute; 
+  z-index: 70;
+  height: 2.093333rem /* 157/75 */;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url(header-bg-h5.png) center center;
+  background-size: 100% 100%;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  background: url(logo1.png) no-repeat center center;
+  background-size: 100% 100%;
+  width: 95%;
+  height: 70%;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+.hide{
+  display: none!important;
+}
+
+.swiper-container-v {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container-v > .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-container-v {
+  background: #eee;
+}
+.swiper-container-h{
+  width: 100%;
+  height: 3.066667rem;
+  padding-bottom: .8rem;
+}
+.swiper-pagination-bullet{
+  background-color: #fff;  
+}
+.swiper-pagination-bullet-active{
+  background-color: #fff;
+}
+.swiper-container-h .swiper-slide{
+  width: 5.333333rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 0px;
+}
+
+.links{
+  text-align: center;
+  width:100%;
+}
+.btn-link{
+  font-size: 30px;
+  display: inline-block;
+  width: 45%;
+  height: 70px /* 157/75 */;
+  line-height: 1.23333rem /* 157/75 */;
+  text-align: center;
+  margin: 0 .01rem /* 30/75 */;
+  text-decoration: none;
+  transition: all 0.35s ease;
+  position: relative;
+  text-indent: -9999em;
+}
+.btn-link1{
+  background: url(btn-link-hth.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link2{
+  background: url(btn-link-hth2.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link3{
+  background: url(btn-link-leyu.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link4{
+  background: url(btn-link-leyu2.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link5{
+  background: url(btn-link-ayx.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link6{
+  background: url(btn-link-ayx2.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link7{
+  background: url(btn-link-ky.png) center center;
+  background-size: 100% 100%;
+}
+.btn-link8{
+  background: url(btn-link-ky2.png) center center;
+  background-size: 100% 100%;
+}
+.slogon{  
+  background-size: 100% 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  text-indent: -9999em;
+}
+.slogon2{
+  width: 9.4rem /* 705/75 */;
+  height: 1.72rem /* 129/75 */;
+  background: url(slogon2.png) center center;
+  background-size: 100% 100%;
+}
+
+.card{
+  position: relative;
+  /* width: 100%; */
+  width: 5.333333rem;
+  height: 3.066667rem /* 230/75 */;
+  overflow: hidden;
+  color: #fff;
+  background: url(card-bg-h5.png) no-repeat center center;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+}
+.list-box-min{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list-box-min .title{
+  font-size: .346667rem /* 26/75 */;
+  font-weight: 600;
+  color: #2BA4FF;
+  margin-bottom: .106667rem /* 8/75 */;
+}
+.list-box-min .txt{
+  font-size: .24rem /* 18/75 */;
+  color: #2BA4FF;
+  margin: 0;
+  padding: 0 .2rem /* 15/75 */;
+  white-space: normal;
+}
+.list-box-min .card-icon{
+  width: .533333rem /* 40/75 */;
+  height: .533333rem /* 40/75 */;
+  margin: 0 auto .2rem /* 15/75 */;
+}
