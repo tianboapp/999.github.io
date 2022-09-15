@@ -116,10 +116,12 @@ body,h1,h2,h3,h4,h5,h6{
 }
 .btn-link3{
   background: url(btn-link-leyu.png) center center;
+  width: 200%; height: 200px;
   background-size: 100% 100%;
 }
 .btn-link4{
   background: url(btn-link-leyu2.png) center center;
+  width: 200%; height: 200px;
   background-size: 100% 100%;
 }
 .btn-link5{
